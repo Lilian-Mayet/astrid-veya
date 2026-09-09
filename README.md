@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VEYA — Site vitrine
 
-## Getting Started
+Recode complet (Next.js 14+ App Router, TypeScript, Tailwind CSS, Framer Motion) du site vitrine de VEYA, maison privée de Haute Intendance. Voir [CLAUDE.md](./CLAUDE.md) pour le contexte projet et les décisions par défaut, et [content.md](./content.md) pour le contenu texte source.
 
-First, run the development server:
+## Installation
 
 ```bash
+npm install
+cp .env.example .env.local   # puis renseigner RESEND_API_KEY et CONTACT_EMAIL
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Variables d'environnement
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Rôle |
+|---|---|
+| `RESEND_API_KEY` | Clé API [Resend](https://resend.com/api-keys) utilisée par `app/api/contact/route.ts` pour l'envoi du formulaire. |
+| `CONTACT_EMAIL` | Adresse qui reçoit les demandes du formulaire de contact. |
 
-## Learn More
+Sans domaine d'envoi vérifié sur Resend, l'API utilise l'adresse `onboarding@resend.dev` (mode test) — voir la [doc Resend](https://resend.com/docs/dashboard/domains/introduction) pour vérifier un domaine en production.
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm run dev` — serveur de développement.
+- `npm run build` — build de production.
+- `npm run start` — sert le build de production.
+- `npm run lint` — ESLint.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Déploiement
 
-## Deploy on Vercel
+Le projet n'a pas de dépendance à une plateforme précise (pas d'API routes propriétaires Netlify) — il se déploie aussi bien sur **Vercel** (recommandé nativement pour Next.js) que sur **Netlify**. Penser à configurer `RESEND_API_KEY` et `CONTACT_EMAIL` dans les variables d'environnement de la plateforme choisie.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+app/                  Pages (App Router) + route API /api/contact
+components/           Briques UI réutilisables (components/ui/) + composants de layout
+lib/                  Config du site, validation partagée du formulaire
+public/logo/          Logo VEYA (noir + variante blanche pour fond sombre)
+public/images/{page}/ Visuels placeholder, un dossier par page
+```

@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Base — thème sombre dominant (cf. CLAUDE.md > Design system) */
+  --color-background: #0a0a0a;
+  --color-foreground: #f2efe9;
+  --color-foreground-muted: #b9b3a8;
+  --color-surface: #131211;
+  --color-border: rgba(242, 239, 233, 0.14);
+  --color-border-strong: rgba(242, 239, 233, 0.28);
+
+  /* Typographie */
+  --font-serif: var(--font-instrument-serif), "Times New Roman", serif;
+  --font-sans: var(--font-raleway), Arial, Helvetica, sans-serif;
+
+  /* Tracking pour les micro-labels en petites capitales */
+  --tracking-label: 0.28em;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-foreground-muted: var(--color-foreground-muted);
+  --color-surface: var(--color-surface);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  --tracking-label: var(--tracking-label);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Micro-label type "— Résidence —" : petites capitales, tracking large */
+.micro-label {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--color-foreground-muted);
+}
+
+/* Trait fin pleine largeur, séparateur de section */
+.hairline {
+  border-color: var(--color-border);
+}
+
+:focus-visible {
+  outline: 1px solid var(--color-foreground);
+  outline-offset: 3px;
 }
