@@ -6,9 +6,10 @@ type Img = { src: string; alt: string };
 
 /**
  * Bloc répété sur les 3 pages Cure (bloc 3 de CONTENT.md) :
- * titre + trait fin + sous-titre 2 lignes + 2 textes côte à côte + 1 image
- * large + 2 images partagées. Jamais plein écran — le fond de page reste
- * visible autour (largeur contrainte au conteneur, cf. CLAUDE.md).
+ * titre + trait fin + sous-titre 2 lignes + textes côte à côte (2, ou 3 pour
+ * la Cure Résidence) + 1 image large + 2 images partagées. Jamais plein
+ * écran — le fond de page reste visible autour (largeur contrainte au
+ * conteneur, cf. CLAUDE.md).
  */
 export function CureBlock({
   title,
@@ -19,7 +20,7 @@ export function CureBlock({
 }: {
   title: React.ReactNode;
   subtitle: React.ReactNode;
-  texts: [React.ReactNode, React.ReactNode];
+  texts: React.ReactNode[];
   largeImage: Img;
   pairedImages: [Img, Img];
 }) {
@@ -37,12 +38,11 @@ export function CureBlock({
         </Reveal>
 
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:col-span-2">
-          <Reveal delay={0.05}>
-            <p className="font-sans text-base leading-relaxed text-foreground-muted">{texts[0]}</p>
-          </Reveal>
-          <Reveal delay={0.1}>
-            <p className="font-sans text-base leading-relaxed text-foreground-muted">{texts[1]}</p>
-          </Reveal>
+          {texts.map((text, i) => (
+            <Reveal key={i} delay={0.05 + i * 0.05}>
+              <p className="font-sans text-base leading-relaxed text-foreground-muted">{text}</p>
+            </Reveal>
+          ))}
         </div>
       </div>
 
