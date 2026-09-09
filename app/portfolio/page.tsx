@@ -51,12 +51,12 @@ const categories = [
     text: "Mises en scène feutrées du quotidien : lit dressé « au carré », linge de maison parfait, art de la table préparé pour un événement privé.",
     images: [
       {
-        src: "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=75",
-        alt: "Chambre au lit dressé avec plaid zébré",
+        src: "/images/veya-originals/chambre-linge-blanc-fleurs.jpg",
+        alt: "Chambre au linge blanc et fleurs fraîches",
       },
       {
-        src: "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=1200&q=75",
-        alt: "Table dressée pour une réception, chandelier et verrerie",
+        src: "/images/veya-originals/salle-a-manger-suspensions-fauteuils.jpg",
+        alt: "Table dressée pour une réception, suspensions et fauteuils",
       },
     ],
   },
@@ -65,12 +65,12 @@ const categories = [
     text: "Alignement d'un dressing d'exception, carnet de santé immobilier digital, baie domotique et technique organisée.",
     images: [
       {
-        src: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=75",
-        alt: "Salon aux rangements et lignes nettes",
+        src: "/images/veya-originals/dressing-valet-chemise-linge.jpg",
+        alt: "Dressing avec valet, chemise et linge plié",
       },
       {
-        src: "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1200&q=75",
-        alt: "Cuisine aux façades sombres et rangements organisés",
+        src: "/images/veya-originals/cave-charpente-bois-bouteilles.jpg",
+        alt: "Cave à charpente en bois, rangement organisé",
       },
     ],
   },

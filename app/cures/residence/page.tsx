@@ -25,8 +25,8 @@ export default function ResidencePage() {
         description="Un soin régulier et continu pour maintenir la haute tenue de votre demeure au quotidien."
         cta={{ label: "Demander un audit privé", href: "/contact" }}
         image={{
-          src: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1600&q=75",
-          alt: "Chambre lumineuse avec mur de cadres et grande fenêtre",
+          src: "/images/veya-originals/chambre-chevet-laiton-pivoines.jpg",
+          alt: "Chambre avec chevet en laiton et pivoines",
         }}
       />
 
@@ -70,17 +70,17 @@ export default function ResidencePage() {
           </>,
         ]}
         largeImage={{
-          src: "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1800&q=75",
-          alt: "Salon chaleureux au mur végétal et canapé cognac",
+          src: "/images/veya-originals/salon-fauteuil-bouclette-cheminee.jpg",
+          alt: "Salon avec fauteuil bouclette et cheminée",
         }}
         pairedImages={[
           {
-            src: "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?auto=format&fit=crop&w=1200&q=75",
-            alt: "Chambre aux tons neutres et plantes vertes",
+            src: "/images/veya-originals/chambre-linge-blanc-fleurs.jpg",
+            alt: "Chambre au linge blanc et fleurs fraîches",
           },
           {
-            src: "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?auto=format&fit=crop&w=1200&q=75",
-            alt: "Chambre aux murs gris et linge de lit soigné",
+            src: "/images/veya-originals/dressing-valet-chemise-linge.jpg",
+            alt: "Dressing avec valet, chemise et linge plié",
           },
         ]}
       />
@@ -169,8 +169,8 @@ export default function ResidencePage() {
 
       <QuoteOnImage
         image={{
-          src: "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=2400&q=75",
-          alt: "Salon avec cheminée en pierre, ambiance chaleureuse et apaisée",
+          src: "/images/veya-originals/salon-moulures-fenetre-haussmannienne.jpg",
+          alt: "Salon haussmannien, moulures et fenêtres à la française",
         }}
         quote="Vous offrir la sérénité d'un lieu d'exception toujours irréprochable et le confort absolu d'une demeure prête à vous accueillir, jour après jour."
       />

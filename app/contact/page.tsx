@@ -24,8 +24,8 @@ export default function ContactPage() {
         <Reveal>
           <div className="relative aspect-[16/8] w-full overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=2400&q=75"
-              alt="Loft avec escalier et verrières, lumière naturelle"
+              src="/images/veya-originals/console-marbre-carnet-cles.jpg"
+              alt="Console en marbre avec carnet, clés et café"
               fill
               sizes="90vw"
               priority

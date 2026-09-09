@@ -26,8 +26,8 @@ export default function SignaturePage() {
         description="La Haute Intendance au service de vos instants d'exception. Pour vos événements et réceptions VIP, la Collection Signature déploie un protocole sur-mesure garantissant un cadre immaculé dans la discrétion absolue."
         cta={{ label: "Initier votre projet", href: "/contact" }}
         image={{
-          src: "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=1600&q=75",
-          alt: "Salle à manger dressée pour une réception, chandelier et table élégante",
+          src: "/images/veya-originals/salle-a-manger-suspensions-fauteuils.jpg",
+          alt: "Salle à manger avec suspensions et fauteuils, prête pour une réception",
         }}
       />
 
@@ -61,17 +61,17 @@ export default function SignaturePage() {
           </>,
         ]}
         largeImage={{
-          src: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1800&q=75",
-          alt: "Loft avec escalier et verrières, prêt à accueillir",
+          src: "/images/veya-originals/console-marbre-carnet-cles.jpg",
+          alt: "Console en marbre avec carnet, clés et café, prête pour l'événement",
         }}
         pairedImages={[
           {
-            src: "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=1200&q=75",
-            alt: "Salon avec cheminée en pierre",
+            src: "/images/veya-originals/salon-fauteuil-bouclette-cheminee.jpg",
+            alt: "Salon avec fauteuil bouclette et cheminée",
           },
           {
-            src: "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=75",
-            alt: "Salon chaleureux prêt à recevoir des invités",
+            src: "/images/veya-originals/salle-de-bain-arche-travertin.jpg",
+            alt: "Arche menant à une salle de bain en travertin",
           },
         ]}
       />
@@ -88,8 +88,8 @@ export default function SignaturePage() {
             title="Polissage & effet miroir"
             text="Lustrage des robinetteries, des chromes et des plans de travail en pierre — un effet miroir absolu sur toutes les surfaces réfléchissantes, indispensable pour magnifier la lumière naturelle."
             image={{
-              src: "https://images.unsplash.com/photo-1600566752229-250ed79470f8?auto=format&fit=crop&w=1200&q=75",
-              alt: "Cuisine en marbre blanc et façades noir mat, robinetterie polie",
+              src: "/images/veya-originals/cuisine-marbre-carrare-boiseries.jpg",
+              alt: "Cuisine en marbre de Carrare, robinetterie et surfaces polies",
             }}
           />
           <GesteCard
@@ -107,8 +107,8 @@ export default function SignaturePage() {
             title="Staging textile"
             text="Alignement millimétré des rideaux, repassage vapeur vertical des linges de maison, organisation esthétique des dressings. Un staging discret qui ne masque pas — qui révèle la qualité du lieu."
             image={{
-              src: "https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?auto=format&fit=crop&w=1200&q=75",
-              alt: "Coin fenêtre avec rideaux soigneusement drapés",
+              src: "/images/veya-originals/dressing-valet-chemise-linge.jpg",
+              alt: "Dressing avec valet, chemise et linge plié",
             }}
             delay={0.1}
           />
@@ -130,8 +130,8 @@ export default function SignaturePage() {
 
       <QuoteOnImage
         image={{
-          src: "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=2400&q=75",
-          alt: "Salon chaleureux prêt à recevoir des invités",
+          src: "/images/veya-originals/salon-rideaux-vue-toits-paris.jpg",
+          alt: "Rideaux de lin devant une fenêtre avec vue sur les toits de Paris",
         }}
         quote="Offrir à vos hôtes la perfection d'un lieu immaculé et l'assurance d'une image irréprochable, avant et après vos moments d'exception."
       />

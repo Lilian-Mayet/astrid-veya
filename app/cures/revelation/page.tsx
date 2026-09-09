@@ -26,8 +26,8 @@ export default function RevelationPage() {
         description="Le standard de soin post-chantier conçu pour sublimer les livraisons des cabinets d'architecture et des résidences de prestige."
         cta={{ label: "Parlons de votre chantier", href: "/contact" }}
         image={{
-          src: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=75",
-          alt: "Salon lumineux après travaux, mur de cadres et grandes fenêtres",
+          src: "/images/veya-originals/salon-moulures-fenetre-haussmannienne.jpg",
+          alt: "Salon haussmannien, moulures et fenêtres à la française, après travaux",
         }}
       />
 
@@ -68,17 +68,17 @@ export default function RevelationPage() {
           </>,
         ]}
         largeImage={{
-          src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=75",
-          alt: "Séjour et cuisine ouverts en bois clair, finitions neuves",
+          src: "/images/veya-originals/cuisine-marbre-carrare-boiseries-2.jpg",
+          alt: "Cuisine en marbre de Carrare et boiseries, après travaux",
         }}
         pairedImages={[
           {
-            src: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=75",
-            alt: "Salon épuré aux lignes nettes",
+            src: "/images/veya-originals/salon-fauteuil-bouclette-cheminee.jpg",
+            alt: "Salon avec fauteuil bouclette et cheminée",
           },
           {
-            src: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=75",
-            alt: "Entrée et coin repas ordonnés",
+            src: "/images/veya-originals/bureau-carnet-suspensions-paris.jpg",
+            alt: "Bureau avec carnet, suspensions et vue sur Paris",
           },
         ]}
       />
@@ -124,8 +124,8 @@ export default function RevelationPage() {
             title="Vitrerie et matériaux nobles"
             text="Vitrage en grande hauteur sans trace, soin spécifique des pierres naturelles et parquets, assainissement complet des volumes avant remise des clés."
             image={{
-              src: "https://images.unsplash.com/photo-1600566752229-250ed79470f8?auto=format&fit=crop&w=1200&q=75",
-              alt: "Cuisine en marbre blanc et façades noir mat",
+              src: "/images/veya-originals/cuisine-marbre-carrare-boiseries.jpg",
+              alt: "Cuisine en marbre de Carrare et boiseries d'époque",
             }}
             delay={0.15}
           />
@@ -134,8 +134,8 @@ export default function RevelationPage() {
 
       <QuoteOnImage
         image={{
-          src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2400&q=75",
-          alt: "Façade nocturne d'une maison contemporaine, éclairage chaleureux",
+          src: "/images/veya-originals/salon-rideaux-vue-toits-paris.jpg",
+          alt: "Rideaux de lin devant une fenêtre avec vue sur les toits de Paris",
         }}
         quote="L'effacement parfait du chantier pour ne laisser place qu'à l'émotion du lieu."
       />

@@ -18,16 +18,16 @@ export const metadata: Metadata = {
 
 const heroSlides = [
   {
-    src: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2400&q=75",
-    alt: "Salon parisien avec mur de cadres et grandes fenêtres",
+    src: "/images/veya-originals/salon-moulures-fenetre-haussmannienne.jpg",
+    alt: "Salon haussmannien, moulures et fenêtres à la française",
   },
   {
-    src: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=2400&q=75",
-    alt: "Salon aux poutres apparentes et arches, canapé blanc",
+    src: "/images/veya-originals/cuisine-marbre-carrare-boiseries.jpg",
+    alt: "Cuisine en marbre de Carrare et boiseries d'époque",
   },
   {
-    src: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=2400&q=75",
-    alt: "Chambre lumineuse avec mur de cadres et grande fenêtre",
+    src: "/images/veya-originals/salon-rideaux-vue-toits-paris.jpg",
+    alt: "Rideaux de lin devant une fenêtre avec vue sur les toits de Paris",
   },
 ];
 
@@ -128,17 +128,17 @@ export default function Home() {
           </>,
         ]}
         largeImage={{
-          src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1800&q=75",
-          alt: "Séjour et salle à manger ouverts, finitions soignées après travaux",
+          src: "/images/veya-originals/cuisine-marbre-carrare-boiseries-2.jpg",
+          alt: "Cuisine en marbre de Carrare et boiseries, après travaux",
         }}
         pairedImages={[
           {
-            src: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=75",
-            alt: "Salon épuré aux lignes nettes après remise en état",
+            src: "/images/veya-originals/salon-fauteuil-bouclette-cheminee.jpg",
+            alt: "Salon avec fauteuil bouclette et cheminée",
           },
           {
-            src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=75",
-            alt: "Séjour et cuisine ouverts en bois clair",
+            src: "/images/veya-originals/bureau-carnet-suspensions-paris.jpg",
+            alt: "Bureau avec carnet, suspensions et vue sur Paris",
           },
         ]}
       />
@@ -173,17 +173,17 @@ export default function Home() {
           </>,
         ]}
         largeImage={{
-          src: "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=1800&q=75",
-          alt: "Salle à manger dressée pour une réception, chandelier et table élégante",
+          src: "/images/veya-originals/salle-a-manger-suspensions-fauteuils.jpg",
+          alt: "Salle à manger avec suspensions et fauteuils, prête pour une réception",
         }}
         pairedImages={[
           {
-            src: "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=1200&q=75",
-            alt: "Salon avec cheminée en pierre prêt à recevoir",
+            src: "/images/veya-originals/console-marbre-carnet-cles.jpg",
+            alt: "Console en marbre avec carnet, clés et café",
           },
           {
-            src: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=75",
-            alt: "Loft avec escalier et verrières",
+            src: "/images/veya-originals/chambre-linge-blanc-fleurs.jpg",
+            alt: "Chambre au linge blanc et fleurs fraîches",
           },
         ]}
       />
@@ -217,17 +217,17 @@ export default function Home() {
           </>,
         ]}
         largeImage={{
-          src: "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1800&q=75",
-          alt: "Salon chaleureux au mur végétal et canapé cognac"
+          src: "/images/veya-originals/chambre-chevet-laiton-pivoines.jpg",
+          alt: "Chambre avec chevet en laiton et pivoines"
         }}
         pairedImages={[
           {
-            src: "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?auto=format&fit=crop&w=1200&q=75",
-            alt: "Chambre aux tons neutres et plantes vertes",
+            src: "/images/veya-originals/dressing-valet-chemise-linge.jpg",
+            alt: "Dressing avec valet, chemise et linge plié",
           },
           {
-            src: "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?auto=format&fit=crop&w=1200&q=75",
-            alt: "Chambre aux murs gris et linge de lit soigné",
+            src: "/images/veya-originals/cave-charpente-bois-bouteilles.jpg",
+            alt: "Cave à charpente en bois et bouteilles rangées",
           },
         ]}
       />
@@ -251,8 +251,8 @@ export default function Home() {
         <Reveal>
           <div className="relative aspect-[16/7] w-full overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2200&q=75"
-              alt="Salon spacieux baigné de lumière naturelle"
+              src="/images/veya-originals/salle-de-bain-arche-travertin.jpg"
+              alt="Arche menant à une salle de bain en travertin"
               fill
               sizes="90vw"
               className="object-cover"

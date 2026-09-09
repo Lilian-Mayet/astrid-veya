@@ -30,8 +30,8 @@ export default function PhilosophiePage() {
       <QuoteOnImage
         heightClassName="min-h-[90vh]"
         image={{
-          src: "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=2400&q=75",
-          alt: "Salon élégant avec cheminée en pierre et grandes ouvertures",
+          src: "/images/veya-originals/salon-rideaux-vue-toits-paris.jpg",
+          alt: "Rideaux de lin devant une fenêtre avec vue sur les toits de Paris",
         }}
         quote="Une résidence d'exception ne s'entretient pas, elle s'orchestre."
       />
@@ -95,8 +95,8 @@ export default function PhilosophiePage() {
       <QuoteOnImage
         heightClassName="min-h-[70vh]"
         image={{
-          src: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=2400&q=75",
-          alt: "Salon aux poutres apparentes et arches, lumière naturelle",
+          src: "/images/veya-originals/salle-a-manger-suspensions-fauteuils.jpg",
+          alt: "Salle à manger et salon, vus en enfilade, prêts à recevoir",
         }}
         quote={
           <>

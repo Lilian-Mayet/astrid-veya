@@ -18,8 +18,8 @@ const cureCards = [
     tagline: "Le passage critique du chantier à la livraison",
     text: "La Cure Révélation s'adresse aux propriétaires de résidences d'exception, aux architectes d'intérieur et aux maîtres d'ouvrage exigeants à la recherche d'un partenaire d'élite pour concrétiser la livraison de leurs plus beaux projets.",
     image: {
-      src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=75",
-      alt: "Séjour et salle à manger ouverts, finitions soignées après travaux",
+      src: "/images/veya-originals/cuisine-marbre-carrare-boiseries-2.jpg",
+      alt: "Cuisine en marbre de Carrare et boiseries, après travaux",
     },
   },
   {
@@ -28,8 +28,8 @@ const cureCards = [
     tagline: "La valorisation esthétique d'un moment clé",
     text: "La Collection Signature s'adresse aux propriétaires de résidences d'exception, aux organisateurs d'événements de prestige et aux gestionnaires de fortune à la recherche d'un partenaire d'élite pour leurs moments les plus exclusifs.",
     image: {
-      src: "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=1600&q=75",
-      alt: "Salle à manger dressée pour une réception, chandelier et table élégante",
+      src: "/images/veya-originals/salle-a-manger-suspensions-fauteuils.jpg",
+      alt: "Salle à manger avec suspensions et fauteuils, prête pour une réception",
     },
   },
   {
@@ -38,8 +38,8 @@ const cureCards = [
     tagline: "L'intendance au long cours",
     text: "La Cure Résidence s'adresse aux propriétaires d'exception, aux family offices et aux gestionnaires de résidences secondaires en quête d'un partenaire de confiance pour assurer le soin continu de leurs intérieurs au quotidien.",
     image: {
-      src: "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1600&q=75",
-      alt: "Salon chaleureux au mur végétal et canapé cognac",
+      src: "/images/veya-originals/chambre-chevet-laiton-pivoines.jpg",
+      alt: "Chambre avec chevet en laiton et pivoines",
     },
   },
 ];
